@@ -1,0 +1,56 @@
+.header {
+  margin: 0;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 34px;
+}
+
+.website-logo {
+  height: 50px;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.icon {
+  font-size: 30px;
+  color: #000000;
+}
+
+.popup-content {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.redirection-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.redirect-para {
+  color: #000000;
+  font-size: 32px;
+  margin: 10px;
+}
+
+.close-button {
+  align-self: start;
+}

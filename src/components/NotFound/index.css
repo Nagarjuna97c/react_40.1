@@ -1,0 +1,25 @@
+.not-found-container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image {
+  height: 500px;
+}
+
+.not-found-heading {
+  font-size: 43px;
+  margin: 10px 0;
+}
+
+.not-found-para {
+  font-size: 22px;
+  color: #616e7c;
+}
+
+.close-icon {
+  color: #616e7c;
+}
